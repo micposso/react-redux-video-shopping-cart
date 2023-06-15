@@ -1,8 +1,9 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { storeData } from '../data/data';
 
 const initialState = {
   products: [],
-  amount: 2,
+  amount: 1,
   total: 0
 }
 

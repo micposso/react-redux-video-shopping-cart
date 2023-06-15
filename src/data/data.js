@@ -1,0 +1,42 @@
+export const clothingProducts = [
+  {
+    name: "T-Shirt",
+    price: 19.99,
+    image: "tshirt.jpg",
+    sizes: ["XS", "S", "M", "L", "XL", "XXL"],
+    colors: ["Red", "Blue", "Green", "Yellow"],
+    amount: 1,
+  },
+  {
+    name: "Jeans",
+    price: 49.99,
+    image: "jeans.jpg",
+    sizes: ["XS", "S", "M", "L", "XL", "XXL"],
+    colors: ["Black", "Blue", "Gray", "White"],
+    amount: 1,
+  },
+  {
+    name: "Dress",
+    price: 39.99,
+    image: "dress.jpg",
+    sizes: ["XS", "S", "M", "L", "XL", "XXL"],
+    colors: ["Pink", "Purple", "Red", "Black"],
+    amount: 1,
+  },
+  {
+    name: "Hoodie",
+    price: 29.99,
+    image: "hoodie.jpg",
+    sizes: ["XS", "S", "M", "L", "XL", "XXL"],
+    colors: ["Gray", "Navy", "Black", "Green"],
+    amount: 1,
+  },
+  {
+    name: "Skirt",
+    price: 24.99,
+    image: "skirt.jpg",
+    sizes: ["XS", "S", "M", "L", "XL", "XXL"],
+    colors: ["Black", "Pink", "White", "Blue"],
+    amount: 1,
+  },
+];
