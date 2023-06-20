@@ -3,7 +3,6 @@ import Navbar from './components/NavBar'
 import BasketProducts from './components/BasketProducts'
 
 function App() {
-
   return (
     <>
      <Navbar />
