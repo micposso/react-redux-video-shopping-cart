@@ -1,11 +1,11 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { storeData } from '../data/data';
+import { clothingProducts } from "../data/data";
 
 const initialState = {
-  products: [],
+  products: clothingProducts,
   amount: 1,
-  total: 0
-}
+  total: 0,
+};
 
 const basketSlice = createSlice({
   name: 'basket',
