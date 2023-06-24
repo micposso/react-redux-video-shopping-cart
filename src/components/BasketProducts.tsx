@@ -10,8 +10,10 @@ const BasketProducts = () => {
         <Product key={i}
           name={item.name}
           price={item.price}
+          image={item.image}
           sizes={item.sizes}
           colors={item.colors}
+          amount={item.amount}
         />
       )}
     </>
