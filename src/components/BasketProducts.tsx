@@ -11,6 +11,7 @@ const BasketProducts = () => {
           name={item.name}
           price={item.price}
           image={item.image}
+          video={item.video}
           sizes={item.sizes}
           colors={item.colors}
           amount={item.amount}
